@@ -20,6 +20,8 @@
 		CF0F544D180DF0A900B96FAD /* AAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0F544C180DF0A900B96FAD /* AAViewController.m */; };
 		CF0F5455180DF0D300B96FAD /* k200x50.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0F5453180DF0D300B96FAD /* k200x50.png */; };
 		CF0F5456180DF0D300B96FAD /* k200x50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0F5454180DF0D300B96FAD /* k200x50@2x.png */; };
+		CF0F545A180E1A4600B96FAD /* meow1.caf in Resources */ = {isa = PBXBuildFile; fileRef = CF0F5459180E1A4600B96FAD /* meow1.caf */; };
+		CF0F545C180E1A5900B96FAD /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF0F545B180E1A5900B96FAD /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,8 @@
 		CF0F544C180DF0A900B96FAD /* AAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAViewController.m; sourceTree = "<group>"; };
 		CF0F5453180DF0D300B96FAD /* k200x50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = k200x50.png; sourceTree = "<group>"; };
 		CF0F5454180DF0D300B96FAD /* k200x50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "k200x50@2x.png"; sourceTree = "<group>"; };
+		CF0F5459180E1A4600B96FAD /* meow1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = meow1.caf; sourceTree = "<group>"; };
+		CF0F545B180E1A5900B96FAD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF0F545C180E1A5900B96FAD /* AudioToolbox.framework in Frameworks */,
 				CF0F5431180DF0A900B96FAD /* UIKit.framework in Frameworks */,
 				CF0F5433180DF0A900B96FAD /* Foundation.framework in Frameworks */,
 				CF0F5435180DF0A900B96FAD /* CoreGraphics.framework in Frameworks */,
@@ -77,6 +82,7 @@
 		CF0F542F180DF0A900B96FAD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CF0F545B180E1A5900B96FAD /* AudioToolbox.framework */,
 				CF0F5430180DF0A900B96FAD /* UIKit.framework */,
 				CF0F5432180DF0A900B96FAD /* Foundation.framework */,
 				CF0F5434180DF0A900B96FAD /* CoreGraphics.framework */,
@@ -100,6 +106,7 @@
 		CF0F5437180DF0A900B96FAD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CF0F5458180E1A0B00B96FAD /* Sounds */,
 				CF0F5457180DF0D600B96FAD /* Kittens */,
 				CF0F5438180DF0A900B96FAD /* Meow-Info.plist */,
 				CF0F5439180DF0A900B96FAD /* InfoPlist.strings */,
@@ -119,6 +126,14 @@
 				CF0F5454180DF0D300B96FAD /* k200x50@2x.png */,
 			);
 			name = Kittens;
+			sourceTree = "<group>";
+		};
+		CF0F5458180E1A0B00B96FAD /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				CF0F5459180E1A4600B96FAD /* meow1.caf */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +195,7 @@
 				CF0F544A180DF0A900B96FAD /* MainStoryboard.storyboard in Resources */,
 				CF0F5455180DF0D300B96FAD /* k200x50.png in Resources */,
 				CF0F5456180DF0D300B96FAD /* k200x50@2x.png in Resources */,
+				CF0F545A180E1A4600B96FAD /* meow1.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +333,7 @@
 				CF0F5452180DF0A900B96FAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

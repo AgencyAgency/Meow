@@ -7,6 +7,7 @@
 //
 
 #import "AAViewController.h"
+#import <AudioToolbox/AudioToolbox.h>
 
 @interface AAViewController ()
 
@@ -16,19 +17,24 @@
 
 - (IBAction)kitten1Pressed:(UIButton *)sender
 {
-    NSLog(@"meow");
+    [self playMeow:@"meow1"];
+}
+
+- (void)playMeow:(NSString *)meow
+{
+    SystemSoundID soundID;
+    
+    NSString *soundPath = [[NSBundle mainBundle] pathForResource:meow ofType:@"caf"];
+    NSURL *soundUrl = [NSURL fileURLWithPath:soundPath];
+    
+    AudioServicesCreateSystemSoundID ((__bridge CFURLRef)soundUrl, &soundID);
+    AudioServicesPlaySystemSound(soundID);
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end
