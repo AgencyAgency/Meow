@@ -22,6 +22,12 @@
 		CF0F5456180DF0D300B96FAD /* k200x50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0F5454180DF0D300B96FAD /* k200x50@2x.png */; };
 		CF0F545A180E1A4600B96FAD /* meow1.caf in Resources */ = {isa = PBXBuildFile; fileRef = CF0F5459180E1A4600B96FAD /* meow1.caf */; };
 		CF0F545C180E1A5900B96FAD /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF0F545B180E1A5900B96FAD /* AudioToolbox.framework */; };
+		DA389EBA180F509C004EE5D8 /* k300x500.png in Resources */ = {isa = PBXBuildFile; fileRef = DA389EB9180F509C004EE5D8 /* k300x500.png */; };
+		DA389EBC180F50B7004EE5D8 /* k300x500@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA389EBB180F50B7004EE5D8 /* k300x500@2x.png */; };
+		DA389EBE180F5181004EE5D8 /* kitten100x200.png in Resources */ = {isa = PBXBuildFile; fileRef = DA389EBD180F5181004EE5D8 /* kitten100x200.png */; };
+		DA389EC0180F5189004EE5D8 /* kitten100x200@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA389EBF180F5189004EE5D8 /* kitten100x200@2x.png */; };
+		DA389EC2180F5347004EE5D8 /* Kitten300x300.png in Resources */ = {isa = PBXBuildFile; fileRef = DA389EC1180F5347004EE5D8 /* Kitten300x300.png */; };
+		DA389EC4180F534D004EE5D8 /* Kitten300x300@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA389EC3180F534D004EE5D8 /* Kitten300x300@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +51,12 @@
 		CF0F5454180DF0D300B96FAD /* k200x50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "k200x50@2x.png"; sourceTree = "<group>"; };
 		CF0F5459180E1A4600B96FAD /* meow1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = meow1.caf; sourceTree = "<group>"; };
 		CF0F545B180E1A5900B96FAD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		DA389EB9180F509C004EE5D8 /* k300x500.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = k300x500.png; path = ../k300x500.png; sourceTree = "<group>"; };
+		DA389EBB180F50B7004EE5D8 /* k300x500@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "k300x500@2x.png"; sourceTree = "<group>"; };
+		DA389EBD180F5181004EE5D8 /* kitten100x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kitten100x200.png; sourceTree = "<group>"; };
+		DA389EBF180F5189004EE5D8 /* kitten100x200@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kitten100x200@2x.png"; sourceTree = "<group>"; };
+		DA389EC1180F5347004EE5D8 /* Kitten300x300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kitten300x300.png; sourceTree = "<group>"; };
+		DA389EC3180F534D004EE5D8 /* Kitten300x300@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Kitten300x300@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +77,11 @@
 		CF0F5424180DF0A900B96FAD = {
 			isa = PBXGroup;
 			children = (
+				DA389EC3180F534D004EE5D8 /* Kitten300x300@2x.png */,
+				DA389EC1180F5347004EE5D8 /* Kitten300x300.png */,
+				DA389EBF180F5189004EE5D8 /* kitten100x200@2x.png */,
+				DA389EBD180F5181004EE5D8 /* kitten100x200.png */,
+				DA389EBB180F50B7004EE5D8 /* k300x500@2x.png */,
 				CF0F5436180DF0A900B96FAD /* Meow */,
 				CF0F542F180DF0A900B96FAD /* Frameworks */,
 				CF0F542E180DF0A900B96FAD /* Products */,
@@ -93,6 +110,7 @@
 		CF0F5436180DF0A900B96FAD /* Meow */ = {
 			isa = PBXGroup;
 			children = (
+				DA389EB9180F509C004EE5D8 /* k300x500.png */,
 				CF0F543F180DF0A900B96FAD /* AAAppDelegate.h */,
 				CF0F5440180DF0A900B96FAD /* AAAppDelegate.m */,
 				CF0F5448180DF0A900B96FAD /* MainStoryboard.storyboard */,
@@ -196,6 +214,12 @@
 				CF0F5455180DF0D300B96FAD /* k200x50.png in Resources */,
 				CF0F5456180DF0D300B96FAD /* k200x50@2x.png in Resources */,
 				CF0F545A180E1A4600B96FAD /* meow1.caf in Resources */,
+				DA389EBA180F509C004EE5D8 /* k300x500.png in Resources */,
+				DA389EBC180F50B7004EE5D8 /* k300x500@2x.png in Resources */,
+				DA389EBE180F5181004EE5D8 /* kitten100x200.png in Resources */,
+				DA389EC0180F5189004EE5D8 /* kitten100x200@2x.png in Resources */,
+				DA389EC2180F5347004EE5D8 /* Kitten300x300.png in Resources */,
+				DA389EC4180F534D004EE5D8 /* Kitten300x300@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
